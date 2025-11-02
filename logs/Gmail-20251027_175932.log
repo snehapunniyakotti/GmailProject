@@ -1,0 +1,248 @@
+2025-10-27 17:59:33.114 [restartedMain] INFO  com.gmail.demo.GmailApplication - Starting GmailApplication using Java 21.0.8 with PID 575306 (/home/sneha/repo/Gmail/target/classes started by sneha in /home/sneha/repo/Gmail)
+2025-10-27 17:59:33.118 [restartedMain] INFO  com.gmail.demo.GmailApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-27 17:59:33.231 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27 17:59:33.232 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27 17:59:34.549 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-27 17:59:34.691 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 130 ms. Found 9 JPA repository interfaces.
+2025-10-27 17:59:35.579 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-27 17:59:35.594 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-27 17:59:35.596 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-27 17:59:35.596 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-10-27 17:59:35.640 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-27 17:59:35.641 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2405 ms
+2025-10-27 17:59:35.901 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-27 17:59:35.990 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-10-27 17:59:36.059 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-27 17:59:36.362 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-27 17:59:36.407 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-27 17:59:36.610 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:h2db user=SA
+2025-10-27 17:59:36.612 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-27 17:59:36.640 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-27 17:59:36.662 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-27 17:59:37.840 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-27 17:59:37.950 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-27 17:59:38.336 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-27 17:59:41.960 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-27 17:59:41.990 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-10-27 17:59:42.204 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-27 17:59:42.205 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-27 17:59:42.649 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:h2db'
+2025-10-27 17:59:42.721 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-27 17:59:42.747 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-27 17:59:42.763 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-27 17:59:42.775 [restartedMain] INFO  com.gmail.demo.GmailApplication - Started GmailApplication in 10.342 seconds (process running for 11.476)
+2025-10-27 18:04:37.367 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27 18:04:37.368 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-27 18:04:37.373 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2025-10-27 18:04:37.803 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:04:37.863 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:04:37.865 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:04:37.869 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + INBOX/personal, page : 0, size : 50
+2025-10-27 18:04:37.871 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : personal and inbox mails
+2025-10-27 18:04:38.032 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 6
+2025-10-27 18:04:38.033 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:04:38.035 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:04:38.036 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:04:38.214 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:04:38.216 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:04:38.218 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName INBOX/personal
+2025-10-27 18:04:39.901 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:04:39.919 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:04:42.017 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:04:46.767 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:04:46.767 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:04:56.709 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:04:56.714 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:04:56.714 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + INBOX/personal, page : 0, size : 50
+2025-10-27 18:04:56.714 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails : personal and inbox mails
+2025-10-27 18:04:56.712 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:04:56.729 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 6
+2025-10-27 18:04:56.732 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:04:56.732 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:04:56.733 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:04:56.768 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:04:56.768 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:04:56.768 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName INBOX/personal
+2025-10-27 18:04:58.760 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:04:58.769 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:05:00.915 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:05:05.473 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:05:05.474 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:05:11.127 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:05:11.128 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:05:11.129 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + Sneha, page : 0, size : 50
+2025-10-27 18:05:11.139 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 1
+2025-10-27 18:05:11.140 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:05:11.141 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:05:11.141 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:05:11.158 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:05:11.159 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:05:11.160 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName Sneha
+2025-10-27 18:05:14.923 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:05:14.924 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:05:39.853 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - readManipulation (+)
+2025-10-27 18:05:39.854 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation (+)
+2025-10-27 18:05:39.854 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation param : ids [10]
+2025-10-27 18:05:39.854 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation param : isRead false
+2025-10-27 18:05:39.855 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation param : folderName Sneha
+2025-10-27 18:05:41.188 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation : searchFolder Sneha
+2025-10-27 18:05:42.223 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation : mdata.getId() 10
+2025-10-27 18:05:42.226 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation : (message != null) true
+2025-10-27 18:05:42.830 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation : changed in IMAP(check og gmail)  id   10 isRead   :::::::::::: false
+2025-10-27 18:05:43.552 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - readManipulation (-)
+2025-10-27 18:05:43.553 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - readManipulation (-)
+2025-10-27 18:05:43.575 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:05:43.575 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:05:43.575 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + Sneha, page : 0, size : 50
+2025-10-27 18:05:43.578 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 1
+2025-10-27 18:05:43.578 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:05:43.578 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:05:43.578 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:05:43.610 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:05:43.611 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:05:43.611 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName Sneha
+2025-10-27 18:05:47.512 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:05:47.513 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:05:51.167 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:05:51.212 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:05:51.212 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=, folder=demo, hasAttachment=false, read=false, star=false]
+2025-10-27 18:05:51.212 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [demo]
+2025-10-27 18:05:51.212 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder demo
+2025-10-27 18:05:51.226 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 1 for searchFolder demo
+2025-10-27 18:05:51.229 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 1
+2025-10-27 18:05:51.230 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:05:51.231 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:05:59.651 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:05:59.652 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:05:59.653 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=2025/10/27, folder=[Gmail]/All Mail, hasAttachment=false, read=false, star=false]
+2025-10-27 18:05:59.653 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [[Gmail]/All Mail]
+2025-10-27 18:05:59.653 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder [Gmail]/All Mail
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : beforeDate Sun Oct 26 00:00:00 IST 2025
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : afterDate Wed Oct 29 00:00:00 IST 2025
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : date search response size 1
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 1 for searchFolder [Gmail]/All Mail
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 1
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:05:59.663 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:07:00.542 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:07:00.543 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:07:00.543 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=2025/10/27, folder=Sneha, hasAttachment=false, read=false, star=false]
+2025-10-27 18:07:00.543 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [Sneha]
+2025-10-27 18:07:00.543 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder Sneha
+2025-10-27 18:07:00.545 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : beforeDate Sun Oct 26 00:00:00 IST 2025
+2025-10-27 18:07:00.546 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : afterDate Wed Oct 29 00:00:00 IST 2025
+2025-10-27 18:07:00.546 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : date search response size 0
+2025-10-27 18:07:00.548 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 1 for searchFolder Sneha
+2025-10-27 18:07:00.548 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 1
+2025-10-27 18:07:00.548 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:07:00.549 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:07:43.250 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:07:43.252 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:07:43.252 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=, folder=[Gmail]/All Mail, hasAttachment=true, read=false, star=false]
+2025-10-27 18:07:43.253 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [[Gmail]/All Mail]
+2025-10-27 18:07:43.253 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder [Gmail]/All Mail
+2025-10-27 18:07:43.253 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : attachment is on 
+2025-10-27 18:07:43.269 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : after attachment filter responseEmails size 2
+2025-10-27 18:07:43.269 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 2 for searchFolder [Gmail]/All Mail
+2025-10-27 18:07:43.270 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 2
+2025-10-27 18:07:43.272 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:07:43.272 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:07:51.657 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:07:51.657 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:07:51.658 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=, folder=karthi, hasAttachment=true, read=false, star=false]
+2025-10-27 18:07:51.658 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [karthi]
+2025-10-27 18:07:51.658 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder karthi
+2025-10-27 18:07:51.658 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : attachment is on 
+2025-10-27 18:07:51.660 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : after attachment filter responseEmails size 0
+2025-10-27 18:07:51.661 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 0 for searchFolder karthi
+2025-10-27 18:07:51.661 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 0
+2025-10-27 18:07:51.662 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:07:51.663 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:08:08.668 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:08:08.672 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:08:08.672 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=2025/10/27, folder=demo, hasAttachment=false, read=false, star=false]
+2025-10-27 18:08:08.673 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [demo]
+2025-10-27 18:08:08.673 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder demo
+2025-10-27 18:08:08.677 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : beforeDate Sun Oct 26 00:00:00 IST 2025
+2025-10-27 18:08:08.678 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : afterDate Wed Oct 29 00:00:00 IST 2025
+2025-10-27 18:08:08.678 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : date search response size 0
+2025-10-27 18:08:08.680 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 1 for searchFolder demo
+2025-10-27 18:08:08.680 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 1
+2025-10-27 18:08:08.681 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:08:08.681 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:10:37.581 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:10:39.618 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:12:11.651 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:11.658 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27 18:12:11.659 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-27 18:12:11.661 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-27 18:12:11.662 [RMI TCP Connection(16)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-27 18:12:17.027 [RMI TCP Connection(17)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:23.312 [RMI TCP Connection(18)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:27.109 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:27.397 [RMI TCP Connection(20)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:27.641 [RMI TCP Connection(21)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:34.432 [RMI TCP Connection(22)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:37.992 [RMI TCP Connection(23)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:12:41.671 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.c.s.DefaultLifecycleProcessor - Shutdown phase 1073741823 ends with 1 bean still running after timeout of 30000ms: [taskScheduler]
+2025-10-27 18:12:42.615 [RMI TCP Connection(16)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-27 18:12:42.630 [RMI TCP Connection(16)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-10-27 18:12:42.631 [RMI TCP Connection(16)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-27 18:12:42.633 [RMI TCP Connection(16)-127.0.0.1] WARN  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Interrupted during closing
+java.lang.InterruptedException: null
+	at java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1749)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.awaitTermination(ThreadPoolExecutor.java:1475)
+	at com.zaxxer.hikari.pool.HikariPool.shutdown(HikariPool.java:246)
+	at com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350)
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:232)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:798)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:748)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1474)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:707)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1467)
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1219)
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1180)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:179)
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1126)
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:64)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:97)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193)
+	at java.management/com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:115)
+	at java.management/com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:52)
+	at java.management/com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:236)
+	at java.management/com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138)
+	at java.management/com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:803)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:802)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1472)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1310)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1405)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:360)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:714)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:598)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:844)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:721)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:720)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

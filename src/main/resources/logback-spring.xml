@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <timestamp key="START_TIME" datePattern="yyyyMMdd_HHmmss"/>
+
+    <property name="LOG_FILE_NAME" value="logs/Gmail-${START_TIME}.log"/>
+
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+           <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} %magenta([%thread]) %highlight(%-5level) %cyan(%logger{36}) - %msg%n</pattern>
+            <highlight>
+            <color>TRACE=WHITE</color>
+            <color>DEBUG=CYAN</color>
+            <color>INFO=GREEN</color>
+            <color>WARN=YELLOW</color>
+            <color>ERROR=RED</color>
+        </highlight>
+        </encoder>
+    </appender>
+
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>${LOG_FILE_NAME}</file>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+<!-- TRACE DEBUG INFO WARN ERROR -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+</configuration>

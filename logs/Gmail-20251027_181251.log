@@ -1,0 +1,450 @@
+2025-10-27 18:12:52.127 [restartedMain] INFO  com.gmail.demo.GmailApplication - Starting GmailApplication using Java 21.0.8 with PID 576184 (/home/sneha/repo/Gmail/target/classes started by sneha in /home/sneha/repo/Gmail)
+2025-10-27 18:12:52.129 [restartedMain] INFO  com.gmail.demo.GmailApplication - No active profile set, falling back to 1 default profile: "default"
+2025-10-27 18:12:52.198 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27 18:12:52.198 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27 18:12:53.125 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-27 18:12:53.220 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 83 ms. Found 9 JPA repository interfaces.
+2025-10-27 18:12:54.046 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-10-27 18:12:54.064 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-10-27 18:12:54.066 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-10-27 18:12:54.067 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-10-27 18:12:54.114 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-10-27 18:12:54.115 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1916 ms
+2025-10-27 18:12:54.395 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-27 18:12:54.483 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-10-27 18:12:54.553 [restartedMain] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-10-27 18:12:54.883 [restartedMain] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-27 18:12:54.922 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-10-27 18:12:55.142 [restartedMain] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:h2db user=SA
+2025-10-27 18:12:55.144 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-10-27 18:12:55.169 [restartedMain] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-10-27 18:12:55.193 [restartedMain] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-27 18:12:56.361 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-27 18:12:56.483 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-27 18:12:56.897 [restartedMain] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-10-27 18:13:01.580 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-27 18:13:01.658 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+2025-10-27 18:13:01.879 [restartedMain] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2025-10-27 18:13:01.880 [restartedMain] WARN  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2025-10-27 18:13:02.322 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:h2db'
+2025-10-27 18:13:02.415 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-10-27 18:13:02.457 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-10-27 18:13:02.484 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-10-27 18:13:02.496 [restartedMain] INFO  com.gmail.demo.GmailApplication - Started GmailApplication in 10.942 seconds (process running for 12.262)
+2025-10-27 18:17:58.371 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27 18:17:58.372 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-10-27 18:17:58.374 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-10-27 18:17:58.757 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:17:58.757 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:17:58.763 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + INBOX/personal, page : 0, size : 50
+2025-10-27 18:17:58.765 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : personal and inbox mails
+2025-10-27 18:17:58.769 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:17:58.851 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 6
+2025-10-27 18:17:58.852 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:17:58.853 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:17:58.853 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:17:58.955 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:17:58.956 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:17:58.956 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName INBOX/personal
+2025-10-27 18:18:00.927 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:18:00.941 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:18:03.007 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:18:11.388 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:18:11.389 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:18:19.696 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:18:19.743 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:18:19.743 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=2025/10/27, folder=demo, hasAttachment=false, read=false, star=false]
+2025-10-27 18:18:19.744 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [demo]
+2025-10-27 18:18:19.744 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder demo
+2025-10-27 18:18:19.753 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : beforeDate Sun Oct 26 00:00:00 IST 2025
+2025-10-27 18:18:19.754 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : afterDate Wed Oct 29 00:00:00 IST 2025
+2025-10-27 18:18:19.754 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : date search response size 0
+2025-10-27 18:18:19.754 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 0 for searchFolder demo
+2025-10-27 18:18:19.754 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 0
+2025-10-27 18:18:19.755 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:18:19.755 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:18:28.532 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (+)
+2025-10-27 18:18:28.532 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (+)
+2025-10-27 18:18:28.532 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB param : filter GmailSearchFilter [fromAdd=, toAdd=, subject=, hasTheWord=, doesNotHave=, sizeValue=0, sizeRange=GT, size=MB, dateWithinValue=1, dateWithinPeriod=DAY, date=, folder=demo, hasAttachment=false, read=false, star=false]
+2025-10-27 18:18:28.532 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolders [demo]
+2025-10-27 18:18:28.534 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : searchFolder demo
+2025-10-27 18:18:28.540 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final responseEmails size 1 for searchFolder demo
+2025-10-27 18:18:28.541 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB : final finalResponseEmails size 1
+2025-10-27 18:18:28.541 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - searchEmailUsingFiltersInDB (-)
+2025-10-27 18:18:28.541 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - searchEmailUsingFilters (-)
+2025-10-27 18:19:16.917 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:19:16.918 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:19:16.920 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Snoozed, page : 0, size : 50
+2025-10-27 18:19:16.931 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 0
+2025-10-27 18:19:16.933 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 0 containing UNKNOWN instances
+2025-10-27 18:19:16.934 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:19:16.934 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:19:18.353 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:19:18.354 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:19:18.354 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Starred, page : 0, size : 50
+2025-10-27 18:19:18.362 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 2
+2025-10-27 18:19:18.363 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:19:18.363 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:19:18.363 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:19:18.380 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:19:18.380 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:19:18.380 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Starred
+2025-10-27 18:19:21.286 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:19:21.287 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:19:21.288 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Drafts, page : 0, size : 50
+2025-10-27 18:19:21.295 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 2
+2025-10-27 18:19:21.296 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:19:21.296 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:19:21.297 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:19:24.411 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:19:24.412 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:19:24.431 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:19:24.431 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:19:24.432 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Drafts
+2025-10-27 18:20:34.246 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - sendSimpleMail (+)
+2025-10-27 18:20:34.252 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail (+)
+2025-10-27 18:20:34.255 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail param : email MailTemplete [id=null, send_to=[sneza0022@gmail.com], cc=, bcc=, subject=subggdf, msgBody=dfgdfdgehedf, draft=true, fileList=[], gmailMessageId=<1857331346.1.1761396307235@administrator-Standard-PC-i440FX-PIIX-1996>]
+2025-10-27 18:20:34.255 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail param : msgId <1857331346.1.1761396307235@administrator-Standard-PC-i440FX-PIIX-1996>
+2025-10-27 18:20:34.255 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail param : oldFileIds []
+2025-10-27 18:20:34.255 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail : newFolderName [Gmail]/Drafts
+2025-10-27 18:21:58.845 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail : Deleting old draft with UID: 238
+2025-10-27 18:22:02.091 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail : Gmail UID: 239
+2025-10-27 18:22:02.092 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail : printing the message id after the message get saved in gmail message.getMessageID() : <762473566.1.1761569519425@administrator-Standard-PC-i440FX-PIIX-1996>
+2025-10-27 18:22:02.821 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmailInGmail (-)
+2025-10-27 18:22:02.822 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmail (+)
+2025-10-27 18:22:02.822 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmail param : email MailTemplete [id=null, send_to=[sneza0022@gmail.com], cc=, bcc=, subject=subggdf, msgBody=dfgdfdgehedf, draft=true, fileList=[], gmailMessageId=<1857331346.1.1761396307235@administrator-Standard-PC-i440FX-PIIX-1996>]
+2025-10-27 18:22:02.823 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmail param : messageId <762473566.1.1761569519425@administrator-Standard-PC-i440FX-PIIX-1996>
+2025-10-27 18:22:02.828 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - saveDraftEmail (-)
+2025-10-27 18:22:02.828 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - sendSimpleMail (-)
+2025-10-27 18:22:13.137 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:22:13.139 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:22:13.151 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:22:13.151 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:22:13.151 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Drafts
+2025-10-27 18:22:21.368 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:22:21.369 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:24:04.643 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:24:04.644 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:24:04.645 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Drafts, page : 0, size : 50
+2025-10-27 18:24:04.652 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 2
+2025-10-27 18:24:04.654 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:24:04.654 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:24:04.654 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:24:04.683 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:24:04.683 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:24:04.683 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Drafts
+2025-10-27 18:24:10.204 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:24:10.205 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:24:15.049 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:24:15.049 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:24:15.049 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Archive, page : 0, size : 50
+2025-10-27 18:24:15.051 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 0
+2025-10-27 18:24:15.051 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 0 containing UNKNOWN instances
+2025-10-27 18:24:15.051 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:24:15.051 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:24:15.063 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:24:15.063 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:24:15.063 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Archive
+2025-10-27 18:24:16.828 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:24:16.829 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:24:16.829 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Starred, page : 0, size : 50
+2025-10-27 18:24:16.835 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 2
+2025-10-27 18:24:16.835 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:24:16.836 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:24:16.836 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:24:18.455 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:24:18.455 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:24:18.456 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Snoozed, page : 0, size : 50
+2025-10-27 18:24:18.468 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 0
+2025-10-27 18:24:18.468 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 0 containing UNKNOWN instances
+2025-10-27 18:24:18.468 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:24:18.468 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:24:21.032 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:24:21.032 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:24:21.040 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:24:21.040 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:24:21.040 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Starred
+2025-10-27 18:24:24.134 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:24:24.135 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:24:24.135 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/All Mail, page : 0, size : 50
+2025-10-27 18:24:24.161 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 21
+2025-10-27 18:24:24.161 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:24:24.162 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:24:24.162 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:24:25.572 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:24:25.572 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:24:25.584 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:24:25.584 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:24:25.584 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/All Mail
+2025-10-27 18:24:39.139 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:24:39.140 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:24:39.159 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:24:39.159 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:24:39.160 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/All Mail, page : 0, size : 50
+2025-10-27 18:24:39.173 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 21
+2025-10-27 18:24:39.174 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:24:39.174 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:24:39.174 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:27:53.744 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - starManipulation (+)
+2025-10-27 18:27:53.753 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation (+) 
+2025-10-27 18:27:53.753 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation param : id 17
+2025-10-27 18:27:53.754 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation param : isStarred true
+2025-10-27 18:27:53.755 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation param : folderName [Gmail]/All Mail
+2025-10-27 18:27:53.756 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation param : msgId <0100019a0c67ea64-f6f7a16d-ea28-4ace-861b-5451521a3e4d-000000@email.amazonses.com>
+2025-10-27 18:27:55.138 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation : searchFolder [Gmail]/All Mail
+2025-10-27 18:27:56.825 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation : changed in IMAP(check og gmail)  id   17 isStarred   :::::::::::: true
+2025-10-27 18:27:57.588 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - starManipulation (-) 
+2025-10-27 18:27:57.588 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - starManipulation (-)
+2025-10-27 18:27:57.606 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:27:57.607 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:27:57.607 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/All Mail, page : 0, size : 50
+2025-10-27 18:27:57.622 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 21
+2025-10-27 18:27:57.622 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:27:57.623 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:27:57.624 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:27:57.691 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:27:57.691 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:27:57.691 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/All Mail
+2025-10-27 18:28:02.892 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:02.892 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:02.892 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Sent Mail, page : 0, size : 50
+2025-10-27 18:28:02.895 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 7
+2025-10-27 18:28:02.896 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:02.896 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:02.896 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:09.605 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:09.606 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:09.606 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/All Mail, page : 0, size : 50
+2025-10-27 18:28:09.626 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 21
+2025-10-27 18:28:09.627 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:09.627 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:09.630 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:10.788 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:10.788 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:10.789 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Spam, page : 0, size : 50
+2025-10-27 18:28:10.792 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 1
+2025-10-27 18:28:10.792 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:10.792 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:10.792 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:12.199 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:12.199 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:12.199 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/All Mail, page : 0, size : 50
+2025-10-27 18:28:12.218 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 21
+2025-10-27 18:28:12.218 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:12.218 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:12.218 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:12.577 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:28:12.578 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:28:12.591 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:28:12.591 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:28:12.592 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Sent Mail
+2025-10-27 18:28:24.149 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:28:24.150 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:28:24.162 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:28:24.163 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:28:24.163 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/All Mail
+2025-10-27 18:28:24.394 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - moveEmailToFolder (+)
+2025-10-27 18:28:24.396 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - moveToFolder (+)
+2025-10-27 18:28:24.397 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - moveToFolder param : ids [29, 27]
+2025-10-27 18:28:24.397 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - moveToFolder param : folderName [Gmail]/All Mail
+2025-10-27 18:28:24.397 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - moveToFolder param : newFolderName [Gmail]/Spam
+2025-10-27 18:28:24.397 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - moveToFolder : NewFolderSearchName [Gmail]/Spam
+2025-10-27 18:28:31.145 [http-nio-8080-exec-3] ERROR c.g.demo.service.api.EmailService - moveToFolder : message moved from sourceFolder [Gmail]/All Mail moveFolder [Gmail]/Spam
+2025-10-27 18:28:32.309 [http-nio-8080-exec-3] ERROR c.g.demo.service.api.EmailService - moveToFolder : message moved from sourceFolder [Gmail]/All Mail moveFolder [Gmail]/Spam
+2025-10-27 18:28:33.832 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - moveToFolder (+)
+2025-10-27 18:28:33.833 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - moveEmailToFolder (-)
+2025-10-27 18:28:33.854 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:33.854 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:33.854 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/All Mail, page : 0, size : 50
+2025-10-27 18:28:33.869 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 19
+2025-10-27 18:28:33.870 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:33.870 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:33.870 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:36.657 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:28:36.657 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:28:36.667 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:28:36.668 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:28:36.668 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Spam
+2025-10-27 18:28:49.068 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:28:49.069 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:28:49.082 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:28:49.082 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:28:49.083 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/All Mail
+2025-10-27 18:28:49.085 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:49.086 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:49.086 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Spam, page : 0, size : 50
+2025-10-27 18:28:49.090 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 3
+2025-10-27 18:28:49.090 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:49.090 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:49.091 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:57.806 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:28:57.806 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:28:57.806 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Spam, page : 0, size : 50
+2025-10-27 18:28:57.811 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 3
+2025-10-27 18:28:57.812 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:28:57.812 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:28:57.812 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:28:57.837 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:28:57.838 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:28:57.838 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Spam
+2025-10-27 18:29:08.621 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:29:08.621 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:29:09.073 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:29:09.074 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:29:09.074 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/All Mail
+2025-10-27 18:29:22.991 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - replayEmail (+)
+2025-10-27 18:29:22.999 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail (+) 
+2025-10-27 18:29:22.999 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail param : id 44
+2025-10-27 18:29:23.000 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail param : folderName [Gmail]/Spam
+2025-10-27 18:29:23.000 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail param : initialContent ---------- Reply message ---------
+
+checkk
+2025-10-27 18:29:24.150 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:29:24.150 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:29:24.331 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail : searchFolder [Gmail]/Spam
+2025-10-27 18:29:24.718 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail : eMsg.getId() 44
+2025-10-27 18:29:25.099 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail : messageToReply.toString() com.sun.mail.gimap.GmailMessage@3d23c6a4
+2025-10-27 18:29:25.112 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail : fromMail snehademo27@gmail.com
+2025-10-27 18:29:32.345 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - replyEmail (-) 
+2025-10-27 18:29:32.346 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - replayEmail (-)
+2025-10-27 18:29:34.806 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:29:34.806 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:29:34.806 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Spam, page : 0, size : 50
+2025-10-27 18:29:34.811 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 3
+2025-10-27 18:29:34.811 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:29:34.812 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:29:34.812 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:29:37.684 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:29:37.684 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:30:19.380 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:30:19.381 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:30:19.381 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Sent Mail, page : 0, size : 50
+2025-10-27 18:30:19.384 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 7
+2025-10-27 18:30:19.384 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:30:19.385 [http-nio-8080-exec-9] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:30:19.385 [http-nio-8080-exec-9] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:30:19.425 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:30:19.426 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:30:19.426 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Sent Mail
+2025-10-27 18:30:23.115 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:30:23.116 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:30:23.116 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Sent Mail, page : 0, size : 50
+2025-10-27 18:30:23.120 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 8
+2025-10-27 18:30:23.120 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:30:23.121 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:30:23.121 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:30:36.836 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:30:36.837 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:30:36.848 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:30:36.848 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:30:36.848 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Sent Mail
+2025-10-27 18:30:37.235 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:30:39.361 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:30:51.053 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:30:51.054 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:09.054 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:09.055 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:09.055 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Sent Mail, page : 0, size : 50
+2025-10-27 18:31:09.063 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 7
+2025-10-27 18:31:09.064 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:31:09.064 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:09.064 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:09.088 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:31:09.088 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:31:09.088 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Sent Mail
+2025-10-27 18:31:13.791 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:13.792 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:13.792 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Sent Mail, page : 0, size : 50
+2025-10-27 18:31:13.795 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 7
+2025-10-27 18:31:13.795 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:31:13.795 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:13.795 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:15.093 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:31:15.095 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:15.109 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:31:15.109 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:31:15.109 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Sent Mail
+2025-10-27 18:31:15.116 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:15.116 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:15.116 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Sent Mail, page : 0, size : 50
+2025-10-27 18:31:15.123 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 6
+2025-10-27 18:31:15.124 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:31:15.124 [http-nio-8080-exec-10] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:15.124 [http-nio-8080-exec-10] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:18.472 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:18.473 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:18.473 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Spam, page : 0, size : 50
+2025-10-27 18:31:18.477 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 3
+2025-10-27 18:31:18.477 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:31:18.477 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:18.477 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:20.344 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:20.344 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:20.344 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Trash, page : 0, size : 50
+2025-10-27 18:31:20.345 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 0
+2025-10-27 18:31:20.345 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 0 containing UNKNOWN instances
+2025-10-27 18:31:20.345 [http-nio-8080-exec-1] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:20.346 [http-nio-8080-exec-1] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:21.557 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:31:21.558 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:21.570 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:31:21.570 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:31:21.570 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Spam
+2025-10-27 18:31:22.078 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:22.079 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:22.079 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + [Gmail]/Trash, page : 0, size : 50
+2025-10-27 18:31:22.080 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 0
+2025-10-27 18:31:22.080 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 0 containing UNKNOWN instances
+2025-10-27 18:31:22.080 [http-nio-8080-exec-2] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:22.080 [http-nio-8080-exec-2] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:26.581 [http-nio-8080-exec-3] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:31:26.582 [http-nio-8080-exec-3] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:26.593 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:31:26.594 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:31:26.594 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Trash
+2025-10-27 18:31:30.243 [http-nio-8080-exec-5] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:31:30.243 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:30.251 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:31:30.251 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:31:30.251 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName [Gmail]/Trash
+2025-10-27 18:31:34.028 [http-nio-8080-exec-8] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:31:34.028 [http-nio-8080-exec-8] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:50.863 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:50.864 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:50.865 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + INBOX/personal, page : 0, size : 50
+2025-10-27 18:31:50.865 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : personal and inbox mails
+2025-10-27 18:31:50.870 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 6
+2025-10-27 18:31:50.870 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:31:50.870 [http-nio-8080-exec-7] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:50.870 [http-nio-8080-exec-7] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:31:50.884 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (+)
+2025-10-27 18:31:50.885 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (+)
+2025-10-27 18:31:50.885 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder param : folderName INBOX/personal
+2025-10-27 18:31:59.811 [http-nio-8080-exec-6] INFO  c.g.demo.service.api.EmailService - callSyncFolder (-)
+2025-10-27 18:31:59.812 [http-nio-8080-exec-6] INFO  c.g.demo.Controller.EmailController - syncFolder (-)
+2025-10-27 18:31:59.827 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (+)
+2025-10-27 18:31:59.828 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (+)
+2025-10-27 18:31:59.828 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails param : folder : + INBOX/personal, page : 0, size : 50
+2025-10-27 18:31:59.828 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : personal and inbox mails
+2025-10-27 18:31:59.831 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails.getTotalElements() 4
+2025-10-27 18:31:59.831 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails : mails Page 1 of 1 containing com.gmail.demo.entity.EmailMetadata instances
+2025-10-27 18:31:59.831 [http-nio-8080-exec-4] INFO  c.g.demo.service.api.EmailService - fetchEmails (-)
+2025-10-27 18:31:59.831 [http-nio-8080-exec-4] INFO  c.g.demo.Controller.EmailController - mailData (-)
+2025-10-27 18:37:59.581 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - getLabelList (+)
+2025-10-27 18:38:01.635 [http-nio-8080-exec-5] INFO  c.g.demo.Controller.EmailController - getLabelList (-)
+2025-10-27 18:47:13.889 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2025-10-27 18:47:13.899 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27 18:47:13.901 [tomcat-shutdown] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-10-27 18:47:13.905 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-10-27 18:47:13.906 [RMI TCP Connection(38)-127.0.0.1] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-10-27 18:47:15.375 [RMI TCP Connection(38)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-27 18:47:15.385 [RMI TCP Connection(38)-127.0.0.1] WARN  o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-10-27 18:47:15.387 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-10-27 18:47:15.392 [RMI TCP Connection(38)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.

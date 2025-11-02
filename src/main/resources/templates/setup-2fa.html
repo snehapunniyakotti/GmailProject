@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Setup Two-Factor Authentication</title>
+</head>
+<body>
+    <h1>Setup Two-Factor Authentication</h1>
+
+    <p>Scan this QR Code with the <strong>Google Authenticator</strong> app.</p>
+
+    <img th:src="${qrUri}" alt="QR Code" style="width:200px;height:200px;"/>
+
+    <p>Once you’ve scanned it, click below to verify your code:</p>
+
+    <a href="/verify-2fa">Proceed to Verification</a>
+</body>
+</html>
